@@ -81,8 +81,24 @@
                     <img src="/images/v1_1126.png" alt="" width="100%">
                 </div>
             </div>
-            <div class="search-section">
-
+            <div class="row search-section px-5">
+                <div class="card search-card p-5 d-flex flex-column">
+                    <div class="col-md-6">
+                        <h3 class="input-group">Course Search</h3>
+                        <input class="input-group-text" type="text">
+                    </div>
+                    <div class="col-md-6">
+                        <button class="btn rounded">Country</button>
+                        <button class="btn rounded">Institute</button>
+                        <button class="btn rounded">Course</button>
+                        <input class="input-group-text" name="courseLevel" list="course_level">
+                        <datalist id="course_level">
+                            <option value="Under Graduate">
+                            <option value="Post Graduate">
+                            <option value="PhD">
+                        </datalist>
+                    </div>
+                </div>
             </div>
     </div>
     </header>

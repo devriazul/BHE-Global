@@ -8,3 +8,7 @@
     background-color: #182D8A;
     color: #ffff;
 }
+
+.search-card {
+    background: linear-gradient(90deg, #EF3F36 -1.43%, #F68B25 95.71%);
+}
